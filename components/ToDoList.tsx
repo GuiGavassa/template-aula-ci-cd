@@ -63,7 +63,7 @@ export function TodoList({ initialTodos = [] }: TodoListProps) {
           onChangeText={setNovoTexto}
         />
         <TouchableOpacity style={styles.addButton} onPress={adicionarTarefa} testID="button-add">
-          <Text style={styles.buttonText}>Adicionar</Text>
+          <Text style={styles.buttonText}>Adicionar teste</Text>
         </TouchableOpacity>
       </View>
 
